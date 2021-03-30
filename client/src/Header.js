@@ -6,17 +6,17 @@ import { Link } from 'react-router-dom';
 import './Header.scss';
 
 const Header = () => {
-	return (
-		<header className='header'>
-			<Link to='/'>
-				<h1>jake grella</h1>
-			</Link>
+  return (
+    <header className='header'>
+      <Link to='/'>
+        <h1>jake grella</h1>
+      </Link>
 
-			<Hamburger className='hamburger' />
+      <Hamburger className='hamburger' />
 
-			<DesktopNav className='desktop' />
-		</header>
-	);
+      <DesktopNav className='desktop' />
+    </header>
+  );
 };
 
 export default Header;

@@ -1,35 +1,35 @@
 body {
-	font-family: 'neue-haas-grotesk-display', sans-serif;
-	color: #000;
-	margin: 2rem;
+  font-family: 'neue-haas-grotesk-display', sans-serif;
+  color: #000;
+  margin: 2rem;
 }
 
 h1 {
-	font-size: 3.6rem;
-	font-weight: 700;
+  font-size: 3.6rem;
+  font-weight: 700;
 }
 h2 {
-	font-size: 2.2rem;
-	font-weight: 600;
+  font-size: 2.2rem;
+  font-weight: 600;
 }
 h3 {
-	font-size: 1.8rem;
-	font-weight: 600;
-	margin-bottom: 1.8rem;
-	line-height: 1.1;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1.8rem;
+  line-height: 1.1;
 }
 p {
-	font-size: 1.6rem;
-	font-weight: 300;
+  font-size: 1.6rem;
+  font-weight: 300;
 }
 a {
-	text-decoration: none;
-	color: #000;
-	&:hover {
-		color: #ff5f1f;
-	}
+  text-decoration: none;
+  color: #000;
+  &:hover {
+    color: #ff5f1f;
+  }
 }
 nav {
-	font-size: 2.2rem;
-	font-weight: 600;
+  font-size: 2.2rem;
+  font-weight: 600;
 }

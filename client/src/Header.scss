@@ -1,26 +1,26 @@
 .header {
-	margin-bottom: 2rem;
-	// border: 10px solid blue;
-	display: flex;
-	flex-flow: container nowrap;
-	justify-content: space-between;
-	align-items: baseline;
+  margin-bottom: 2rem;
+  // border: 10px solid blue;
+  display: flex;
+  flex-flow: container nowrap;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 // 768 and up
 @media only screen and (min-width: 768px) {
-	.header {
-		margin-bottom: 5rem;
-	}
-	.hamburger {
-		display: none;
-	}
+  .header {
+    margin-bottom: 5rem;
+  }
+  .hamburger {
+    display: none;
+  }
 }
 
 // 768 amd below
 @media only screen and (max-width: 768px) {
-	.desktop {
-		display: none;
-	}
+  .desktop {
+    display: none;
+  }
 }
 // if screen width jumps above ____px, showw desktop nav

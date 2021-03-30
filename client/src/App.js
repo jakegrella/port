@@ -11,31 +11,31 @@ import Project from './Project';
 import { tsInfo, ejInfo } from './projectInfo';
 
 function App() {
-	return (
-		<div>
-			<div>
-				<Header />
-			</div>
+  return (
+    <div>
+      <div>
+        <Header />
+      </div>
 
-			<Switch>
-				<Route path='/projects/townsquare'>
-					<Project info={tsInfo} />
-				</Route>
-				<Route path='/projects/expat-journal'>
-					<Project info={ejInfo} />
-				</Route>
-				<Route path='/projects'>
-					<Projects />
-				</Route>
-				<Route path='/contact'>
-					<Contact />
-				</Route>
-				<Route path='/'>
-					<Home />
-				</Route>
-			</Switch>
-		</div>
-	);
+      <Switch>
+        <Route path='/projects/townsquare'>
+          <Project info={tsInfo} />
+        </Route>
+        <Route path='/projects/expat-journal'>
+          <Project info={ejInfo} />
+        </Route>
+        <Route path='/projects'>
+          <Projects />
+        </Route>
+        <Route path='/contact'>
+          <Contact />
+        </Route>
+        <Route path='/'>
+          <Home />
+        </Route>
+      </Switch>
+    </div>
+  );
 }
 
 // const tsInfo = {
